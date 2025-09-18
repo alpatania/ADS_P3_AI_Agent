@@ -13,7 +13,10 @@ In this assignment, you will create an AI-powered data collection agent that aut
 - Practice ethical and respectful data collection
 - Create comprehensive documentation and quality checks
 
-**Note**: The code in the following examples is in python. I don't code in R, so I asked an AI to generate the R code. I did not test the code, so be careful when running it.
+**Note 1:** The code in the following assignement is in python. I don't code in R, so I asked an AI to generate the R code. I did not test the code, so be careful when running it.  
+
+**Note 2:** Submit a report to Brightspace with a titled section for each component (| **Mini DMP (20 pts)** | **API Fundamentals (15 pts)** | **API Setup (10 pts)** | **AI Agent (35 pts)**| **Documentation (20 pts)** ) and the code to the github repo for this assignement with the file structure defined in the submission requirements
+
 ---
 
 ## What You'll Build
@@ -423,8 +426,7 @@ Your agent should produce a final summary including:
 
 ## Submission Requirements
 
-Submit to the github repo for this assignement:
-
+Submit a report to Brightspace with a titled section for each component and the code to the github repo for this assignement with the file structure defined in 
 ### File Structure:
 ```
 your_name_ai_agent_assignment/
