@@ -1,8 +1,3 @@
-# Week Assignment: Build an AI Data Collection Agent
-
-**Course:** Data Analysis  
-**Week:** [Week Number]  
-**Due Date:** [Insert Date]  
 **Points:** 100 points  
 
 ---
@@ -33,42 +28,23 @@ Your AI agent will:
 
 ## Part 1: Choose Your Data Collection Scenario (20 points)
 
-Select ONE of the following scenarios and create a mini Data Management Plan:
+Select ONE of the datasets in the Data Management Plan submitted for T2 and create a mini scenario:
 
-### Scenario A: Weather Pattern Analysis
+### Scenario: 
+**Objective:** 
+- **Data Sources:** resources with and API
+- **Data Types:** data variables needed from the API
+- **Geographic Scope:** queries needed from API
+- **Time Range:**
+
+### Example Scenario: Weather Pattern Analysis
 **Objective:** Collect weather data to analyze climate patterns across different cities
 - **Data Sources:** OpenWeatherMap API (free tier), WeatherAPI (free tier)
 - **Data Types:** Temperature, humidity, precipitation, wind speed
 - **Geographic Scope:** 5-10 cities of your choice
 - **Time Range:** Current conditions + 5-day forecast
 
-### Scenario B: News Sentiment Tracker
-**Objective:** Monitor news sentiment on a topic of interest
-- **Data Sources:** NewsAPI (free tier), Reddit API (free)
-- **Data Types:** Headlines, article summaries, publication dates, sources
-- **Topic:** Choose any current event or topic (climate change, technology, sports, etc.)
-- **Scope:** English language articles from past week
-
-### Scenario C: GitHub Repository Analytics
-**Objective:** Analyze open source project trends and activity
-- **Data Sources:** GitHub API (free, high rate limits)
-- **Data Types:** Repository info, commit activity, contributor stats, issue counts
-- **Focus:** Choose a programming language or topic area
-- **Scope:** Top 20-50 repositories matching your criteria
-
-### Scenario D: Economic Indicators Dashboard
-**Objective:** Track economic indicators and market trends
-- **Data Sources:** Alpha Vantage API (free tier), Federal Reserve Economic Data (FRED)
-- **Data Types:** Stock prices, exchange rates, economic indicators
-- **Scope:** 3-5 stocks or currencies + 2-3 economic indicators
-- **Time Range:** Daily data for past month
-
-**Deliverable 1:** Mini Data Management Plan (1-2 pages) including:
-- Research question and objectives
-- Data sources and types
-- Collection strategy and timeline
-- Quality assurance plan
-- Documentation approach
+If your DMP does not include an API, use one of the DMP scenarios in scenarios.md
 
 ---
 
@@ -171,45 +147,7 @@ for country in countries:
 
 ## Part 3: Setting Up Free API Access (10 points)
 
-For your chosen scenario, you'll need to set up API access. Here's how to get free API keys:
-
-### For Weather Data (Scenario A):
-1. **OpenWeatherMap:**
-   - Go to openweathermap.org/api
-   - Sign up for free account
-   - Get API key (1,000 calls/day free)
-
-2. **WeatherAPI:**
-   - Go to weatherapi.com
-   - Sign up for free account  
-   - Get API key (1 million calls/month free)
-
-### For News Data (Scenario B):
-1. **NewsAPI:**
-   - Go to newsapi.org
-   - Sign up for free account
-   - Get API key (1,000 requests/day free)
-
-2. **Reddit API:**
-   - Create Reddit account
-   - Go to reddit.com/prefs/apps
-   - Create new app, get client ID and secret
-
-### For GitHub Data (Scenario C):
-1. **GitHub API:**
-   - Create GitHub account (if you don't have one)
-   - Go to github.com/settings/tokens
-   - Generate personal access token
-   - No payment required, generous rate limits
-
-### For Economic Data (Scenario D):
-1. **Alpha Vantage:**
-   - Go to alphavantage.co/support/#api-key
-   - Get free API key (500 requests/day)
-
-2. **FRED API:**
-   - Go to fred.stlouisfed.org/docs/api/api_key.html
-   - Request free API key
+For your chosen scenario, you'll need to set up API access. (see scenarios.md for examples if your Data Management Plan does not include an API)
 
 ### API Key Security Best Practices:
 
@@ -484,7 +422,7 @@ Your agent should produce a final summary including:
 
 ## Submission Requirements
 
-Submit a ZIP file containing:
+Submit to the github repo for this assignement:
 
 ### File Structure:
 ```
@@ -536,12 +474,6 @@ your_name_ai_agent_assignment/
 | **AI Agent (35 pts)** | Sophisticated, adaptive, well-designed | Good functionality, some AI features | Basic collection working | Agent not functional |
 | **Documentation (20 pts)** | Comprehensive, auto-generated, professional | Good documentation, mostly complete | Basic documentation | Poor or missing documentation |
 
-### Bonus Points (up to 10 pts):
-- Creative features beyond requirements
-- Exceptional code quality and documentation
-- Innovative approaches to data quality or collection strategies
-- Help other students on class forum
-
 ---
 
 ## Resources and Help
@@ -556,19 +488,6 @@ your_name_ai_agent_assignment/
 - [Dog CEO API](https://dog.ceo/dog-api/) - Dog images API
 - [Rest Countries](https://restcountries.com/) - Country information
 - [Public APIs List](https://github.com/public-apis/public-apis) - Huge list of free APIs
-
-### Code Examples Repository:
-Check the course repository for:
-- Agent templates for each scenario
-- Configuration file examples
-- Common error handling patterns
-- Rate limiting implementations
-
-### Getting Help:
-- **Office Hours**: [Insert times]
-- **Class Forum**: Post questions and help classmates
-- **Study Groups**: Form groups to tackle challenges together
-- **Technical Issues**: Email TA with specific error messages
 
 ### Common Challenges and Solutions:
 
@@ -605,38 +524,8 @@ If you finish early or want to go beyond the requirements:
 
 ---
 
-## Learning Outcomes Assessment
-
-By completing this assignment, you will have demonstrated:
-
-✅ **Technical Skills:**
-- API integration and authentication
-- Error handling and logging
-- Data validation and quality assessment
-- File I/O and data serialization
-
-✅ **Data Management:**
-- Creating and following a data management plan
-- Implementing respectful collection practices
-- Generating comprehensive documentation
-- Quality assurance and validation
-
-✅ **Problem Solving:**
-- Debugging API integration issues
-- Adapting strategies based on performance
-- Handling edge cases and errors
-- Optimizing collection efficiency
-
-✅ **Professional Practices:**
-- Code documentation and organization
-- Version control and reproducibility
-- Ethical data collection
-- Collaborative development practices
-
----
-
 **Good luck building your AI data collection agent! Remember, the goal is not just to collect data, but to do so responsibly, efficiently, and with proper documentation. Your future self (and your research collaborators) will thank you for the time invested in good practices.**
 
 ---
 
-*If you have any questions about this assignment, please don't hesitate to ask during office hours or on the class forum. We're here to help you succeed!*
+*If you have any questions about this assignment, please don't hesitate to ask during office hours. We're here to help you succeed!*
