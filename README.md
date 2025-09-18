@@ -13,6 +13,7 @@ In this assignment, you will create an AI-powered data collection agent that aut
 - Practice ethical and respectful data collection
 - Create comprehensive documentation and quality checks
 
+**Note**: The code in the following examples is in python. I don't code in R, so I asked an AI to generate the R code. I did not test the code, so be careful when running it.
 ---
 
 ## What You'll Build
